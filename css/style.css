@@ -1,0 +1,152 @@
+body {
+		/*background-color: silver; */
+		/*{.main: background-color: white;
+		width: 600px;}*/
+
+		background-image: url(../images/mountainski.jpg);
+		background-size: 100%;  /*cover will keep the background in one place and change size to fit the screen*/
+		background-attachment: fixed;
+		font-family: 'lato';
+
+
+}
+	/*.main{
+		background-color: rgba(255,255,255,0.2);
+		width:600px;
+		margin:20px auto;
+		padding: 20px;
+	} */
+
+	.aboutme{
+		background-color: rgba(255,255,255,0.2);
+		width:600px;
+		margin:10px auto;
+		padding: 10px;
+		text-align: justify;
+	}
+
+	.runs{
+		background-color: rgba(255,255,255,0.2);
+		width:600px;
+		margin:10px auto;
+		padding: 10px;
+	}
+
+	.onweblinks{
+		background-color: rgba(255,255,255,0.2);
+		width:600px;
+		margin:10px auto;
+		padding: 10px;
+
+	}
+	/* use colour picker to choose color  */
+
+h1 {
+	background-color: none;
+	text-align:center;
+	border-bottom: cyan solid;
+	max-width: 50%;
+	margin: 0 auto;
+	padding-bottom: 10pt;
+	color: white;
+	font-family: 'Lato', sans-serif;
+	text-shadow: 1px 1px 2px cyan;
+	
+}
+
+h2 {
+	font-weight: normal;
+	text-align:center;
+	font-size: 18 ;
+	text-transform: uppercase;
+	margin: 0 auto;
+	padding-bottom: 10pt;
+	padding-top: 12pt;
+	color:white;
+	font-family: 'Lato', sans-serif;
+}
+
+h2 span {
+	font-weight: normal;
+	text-align:center;
+	font-size: 22 ;
+	text-transform: uppercase;
+	margin: 0 auto;
+	padding-bottom: 10pt;
+	padding-top: 12pt;
+	color:cyan;
+	font-family: 'Lato', sans-serif;
+}
+
+
+h3 {
+	font-weight: bold;
+	padding-bottom: 10pt;
+	padding-top: 12pt;
+	color:darkslateblue;
+	font-family: 'Lato', sans-serif;
+	cursor: help;
+
+
+	
+}
+
+h4 {
+	background-color: none;
+	text-align:center;
+	color: white;
+	}
+
+img {
+	margin: 15pt;
+	width: 200px;
+	border: 2pt white dashed;
+	margin: 0 auto;
+	display: block;
+	border-radius: 5px 60px 5px;
+}
+	.sb{
+			/*float: center;*/
+			width: 50px;
+			border-radius: 20% 20%;
+			border: white solid;
+			margin: 5pt;
+	}
+
+p,
+ol,
+
+ul {
+		line-height: 1.5;
+		list-style: square;
+		padding-left: 30px;
+		padding-right: 30px;
+		list-style-type: none;
+
+}
+
+ul {
+		text-align: center;
+}
+ul li {
+	display: inline-block;
+}
+
+a {
+	
+	
+	display:inline;
+	text-decoration: none;
+	
+}
+
+a:hover {
+	color:cyan;
+	text-decoration: blink;
+	font-weight: bold;
+	text-decoration: underline;
+
+
+
+	
+
